@@ -10,28 +10,38 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
+
 <body>
-	<div class="navbar-fixed">
- 	 <nav class="white" role="navigation">
 
+<div class="navbar-fixed hide-on-small-only">
+  <nav class=" white">
     <div class="nav-wrapper container">
-       <a id="logo-container" href="#" class="brand-logo">Logo</a>
-       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <ul class="right hide-on-med-and-down">
+       <li><a class="sidenav-close" href="#prodotto">Sviluppo Prodotto</a></li>
+        <li><a class="sidenav-close" href="#branding">Branding</a></li>
+        <li><a class="sidenav-close" href="#comunicazione">Comunicazione</a></li> 
+      </ul>
 
-         <ul class="right hide-on-med-and-down">
-          <li><a href="#prodotto">Sviluppo Prodotto</a></li>
-          <li><a href="#branding">Branding</a></li>
-          <li><a href="#comunicazione">Comunicazione</a></li>
-        </ul>
-      </div>
-    </nav>
-      
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#prodotto">Sviluppo Prodotto</a></li>
-        <li><a href="#branding">Branding</a></li>
-        <li><a href="#comunicazione">Comunicazione</a></li> 
+</div>
+</nav>
+</div>
+
+
+
+<div class="hide-on-med-and-up">
+        <a class="btn-floating fixed-action-btn-tl btn-large sidenav-trigger" data-target="nav-mobile"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="sidenav">
+        <li><a class="sidenav-close" href="#prodotto">Sviluppo Prodotto</a></li>
+        <li><a class="sidenav-close" href="#branding">Branding</a></li>
+        <li><a class="sidenav-close" href="#comunicazione">Comunicazione</a></li> 
       </ul>
 </div>
+
+
+
+
+
 
 
  <div id="index-banner" class="parallax-container">
@@ -174,12 +184,17 @@
 
   <div class="parallax-container valign-wrapper">
   	<div class="row">
+
+
   <a class="typeform-share waves-effect white-text btn-large" href="https://matteo89.typeform.com/to/y0N1er" data-mode="drawer_right" data-hide-headers=true data-hide-footer=true data-submit-close-delay="5" target="_blank">
     Contattaci!</a>
 
 
 <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 </div>
+
+
+
     <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
@@ -210,7 +225,6 @@
         </div>
       </div>
     </div>
-
 
 
 
