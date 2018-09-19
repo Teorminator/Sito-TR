@@ -7369,7 +7369,6 @@ input[type=range] + .thumb {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
-
 input[type=range] + .thumb .value {
   display: block;
   width: 30px;
