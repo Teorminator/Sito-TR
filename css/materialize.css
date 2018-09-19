@@ -5350,7 +5350,7 @@ button.btn-floating {
 
 .fixed-action-btn-tl {
   position: fixed;
-  right: 280px;
+  right: 80%;
   top: 15px;
   margin-bottom: 0;
   z-index: 997;
