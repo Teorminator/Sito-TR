@@ -7139,7 +7139,7 @@ $jscomp.polyfill = function (e, r, p, m) {
   'use strict';
 
   var _defaults = {
-    indicators: true,
+    indicators: false,
     height: 400,
     duration: 500,
     interval: 6000

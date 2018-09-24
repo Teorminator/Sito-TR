@@ -2814,7 +2814,7 @@ video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 33%;
+
 }
 
 .parallax-container .parallax {
@@ -2838,6 +2838,15 @@ video.responsive-video {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
+.parallax-container-t .parallax-t {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
 
 .pin-top, .pin-bottom {
   position: relative;
@@ -3469,9 +3478,11 @@ table span.badge {
 .row {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
 }
-
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
 .row:after {
   content: "";
   display: table;
@@ -3482,8 +3493,9 @@ table span.badge {
   float: left;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 0 0.75rem;
+  padding: 2rem 0.75rem;
   min-height: 1px;
+
 }
 
 .row .col[class*="push-"], .row .col[class*="pull-"] {
@@ -8266,7 +8278,7 @@ input[type=range]::-ms-thumb {
 
 .slider {
   position: relative;
-  height: 400px;
+  height: 300px !important;
   width: 100%;
 }
 
@@ -8290,9 +8302,9 @@ input[type=range]::-ms-thumb {
 }
 
 .slider .slides {
-  background-color: #9e9e9e;
+  background-color: #FFFFFF;
   margin: 0;
-  height: 400px;
+  height: 100%;
 }
 
 .slider .slides li {
@@ -8307,7 +8319,7 @@ input[type=range]::-ms-thumb {
 }
 
 .slider .slides li img {
-  height: 100%;
+  height: 80%;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -8316,7 +8328,7 @@ input[type=range]::-ms-thumb {
 .slider .slides li .caption {
   color: #fff;
   position: absolute;
-  top: 15%;
+  top: 20%;
   left: 15%;
   width: 70%;
   opacity: 0;
