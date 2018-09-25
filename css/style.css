@@ -22,8 +22,17 @@ p {
 .oro-text{
   color: #726B56 !important;
 }
+.tosca-text{
+  color: #7F534B !important;
+}
+.lico{
+  background-color: #1F0318 !important;
+}
 .blu-text{
   color: #1098F7 !important;
+}
+.lico-text{
+  color: #1F0318 !important;
 }
 .blu{
   background-color: #1098F7 !important;
