@@ -3504,9 +3504,10 @@ table span.badge {
   margin-left: auto;
   margin-right: auto;
 }
-.row {
+.rowc {
   margin-left: auto;
   margin-right: auto;
+  
 }
 .row:after {
   content: "";

@@ -48,8 +48,10 @@ p {
   margin-right: auto;
 }
 .rownp{
-    margin-left: 0;
-    margin-right: 0;
+  margin-bottom: auto;
+  margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .parallax-container {
@@ -80,10 +82,7 @@ p {
   height: 100px !important;
   
 }
-.iconap{
-  width: 65px;
-  height: 65px;
-}
+
 .slides{
   height: 300px !important;
 }
