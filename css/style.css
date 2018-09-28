@@ -8,7 +8,7 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #726B56;
+  color: #FED766;
 }
 
 p {
@@ -40,7 +40,21 @@ p {
 .oro{
   background-color: #726B56 !important;
 }
-
+.magic-mint{
+  background-color: #AEF6C7;
+}
+.bondiblu{
+  background-color: #009FB7;
+}
+.bondiblu-text{
+  color: #009FB7;
+}
+.giallo-text{
+color: #FED766;
+}
+.isabelline-text{
+  color: #EAEAEA;
+}
 .row {
   margin-top: 50px !important;
   margin-bottom: 50px !important;
