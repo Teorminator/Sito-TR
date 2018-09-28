@@ -12,7 +12,7 @@ nav .brand-logo {
 }
 
 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 .sidenav-trigger {
@@ -46,14 +46,28 @@ p {
 .bondiblu{
   background-color: #009FB7;
 }
+.eagleblu{
+  background-color: #124559;
+}
 .bondiblu-text{
   color: #009FB7;
+}
+.eagleblu-text{
+  color: #124559;
 }
 .giallo-text{
 color: #FED766;
 }
 .isabelline-text{
   color: #EAEAEA;
+}
+
+.smokewhite-text{
+  color: #EFF6F7;
+}
+
+.smokewhite{
+  background-color:#EFF6F7 ;
 }
 .row {
   margin-top: 50px !important;
@@ -69,7 +83,7 @@ color: #FED766;
 }
 
 .parallax-container {
-  height: 650px;
+  height: 550px;
   line-height: 0;
   height: 33%;
   color: rgba(255,255,255,.9);
