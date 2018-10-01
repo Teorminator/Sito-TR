@@ -12,7 +12,22 @@ nav .brand-logo {
 }
 
 p {
+  font-family: 'Rubik,regular', sans-serif;
+}
+
+titolino {
   font-family: 'Rubik', sans-serif;
+  font-weight: 550;
+  font-size: 1.5rem;
+
+}
+
+sottotitolo {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.9em;
+  color:#EFF6F7;
+  line-height: 1.8rem;
+  
 }
 
 .sidenav-trigger {
