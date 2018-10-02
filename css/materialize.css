@@ -4526,8 +4526,8 @@ a {
 
 html {
   line-height: 1.5;
-  font-family: 'Rubik Mono One', cursive;
-  font-weight: normal;
+  font-family: 'Rubik', cursive;
+  font-weight: medium;
   color: rgba(0, 0, 0, 0.87);
 }
 
